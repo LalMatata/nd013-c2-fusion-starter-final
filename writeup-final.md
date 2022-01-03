@@ -4,22 +4,22 @@ In this lesson, I learn knowledge of Kalman Filter, Extended KF, fusion and trac
 
 ## Step 1 : Tracking - Track objects over time with a Kalman Filter
 
-![](img/show_track.png)
+![](img/17.png)
 
 
-![](img/show_track_rmse.png)
+![](img/18.png)
 
 ## Step 2 : Track Management - Initialize, update and delete tracks
 
-![](img/rmse2.png)
+![](img/14.png)
 
 ## Step 3 : Data Association - Associate measurements to tracks with nearest neighbor association
 
-![](img/rmse3.png)
+![](img/15.png)
 
 ## Step 4 : Sensor Fusion - Fuse measurements from lidar and camera
 
-![](img/rmse4.png)
+![](img/16.png)
 
 
 ### 1. Write a short recap of the four tracking steps and what you implemented there (filter, track management, association, camera fusion). Which results did you achieve? Which part of the project was most difficult for you to complete, and why?
@@ -54,9 +54,9 @@ Can run multiple objects detection and tracking by using both camera and lidar m
 ### 2. Do you see any benefits in camera-lidar fusion compared to lidar-only tracking (in theory and in your concrete results)? 
 Yes, camera-lidar fusion benefits the result. The first picture below is lidar-only detection. The second picture is camera-lidar fusion detection. We can find that tracks in second picture all have slightly lower RMS error.  
 
-!["lidar only"](img/rmse3.png)  
+!["lidar only"](img/15.png)  
 
-!["lidar camera fusion"](img/rmse4.png)
+!["lidar camera fusion"](img/16.png)
 
 ### 3. Which challenges will a sensor fusion system face in real-life scenarios? Did you see any of these challenges in the project?
 
